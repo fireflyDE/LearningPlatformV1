@@ -1,5 +1,4 @@
 import "./globals.css";
-import { ReactNode } from "react";
 import NavBar from "@/components/NavBar"; // ✅ Import your NavBar
 import FooterHome from "@/components/FooterHome";
 
