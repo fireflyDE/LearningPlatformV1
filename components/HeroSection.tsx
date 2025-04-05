@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <section className="w-full px-6 py-12 bg-white">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
-        {/* Left text content */}
+        {/* Leftcontent */}
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-3xl md:text-4xl font-extrabold text-[#003087]">
             Learn More, Achieve More!
@@ -17,7 +17,7 @@ export default function HeroSection() {
           </p>
         </div>
 
-        {/* Right image */}
+        {/* image */}
         <div className="flex-1 flex justify-center">
           <div className="relative w-[311px] h-[414px] bg-[white] rounded-lg overflow-hidden">
             <Image

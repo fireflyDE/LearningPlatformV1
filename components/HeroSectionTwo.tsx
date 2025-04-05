@@ -1,5 +1,3 @@
-// components/HeroSectionTwo.tsx
-
 import Image from "next/image";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -10,7 +8,7 @@ export default function HeroSectionTwo() {
   return (
     <section className="w-full bg-white py-16 px-6 flex justify-center">
       <div className="max-w-6xl w-full flex flex-col lg:flex-row items-center justify-between gap-12">
-        {/* Left side image */}
+        {/* Leftimage */}
         <div className="flex-1">
           <Image
             src="https://y6kszdvuln.ufs.sh/f/r58qqbjUXDOk7YM2mXi3pVwtkTQ41nWc6oylxR2KuGUjHC0A"
@@ -21,7 +19,7 @@ export default function HeroSectionTwo() {
           />
         </div>
 
-        {/* Right side login box */}
+        {/* box */}
         <div className="w-[493px] h-[582px] bg-white rounded-[32px] shadow-lg p-8 flex flex-col items-center justify-start space-y-6">
           {/* "Join Us!" Header with offset border */}
           <div className="relative">
@@ -31,7 +29,7 @@ export default function HeroSectionTwo() {
             <div className="absolute top-1 left-1 w-full h-full border-2 border-black z-0"></div>
           </div>
 
-          {/* Form Fields */}
+          {/* Form */}
           <div className="w-full space-y-13">
             <Input
               type="text"
@@ -57,7 +55,7 @@ export default function HeroSectionTwo() {
             <div className="flex-grow h-px bg-gray-300"></div>
           </div>
 
-          {/* Social Buttons */}
+          {/* Buttons */}
           <div className="flex w-full justify-between gap-4">
             <button className="flex-1 py-2 border rounded-xl flex justify-center items-center shadow hover:shadow-md">
               <FcGoogle size={24} />
@@ -70,7 +68,7 @@ export default function HeroSectionTwo() {
             </button>
           </div>
 
-          {/* Sign-up Link */}
+          {/* Sign-up */}
           <p className="text-sm text-gray-600 text-center">
             Don’t have an account?{" "}
             <a href="#" className="text-blue-600 hover:underline">

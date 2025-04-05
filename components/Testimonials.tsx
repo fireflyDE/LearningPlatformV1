@@ -9,11 +9,11 @@ export default function Testimonials() {
       </p>
 
       <div className="flex flex-wrap justify-center gap-6">
-        {/* Testimonial Card 1 */}
+        {/* Testimonial1 */}
         <div className="w-[400px] h-[144px] bg-white rounded-xl shadow-sm p-4 flex gap-4">
           <Image
             src="https://y6kszdvuln.ufs.sh/f/r58qqbjUXDOkEgql57tEe9GpNoaBOJhUsPfKTgmRY6DkFC0Q" // Replace with actual path in public folder
-            alt="Emily Zuali"
+            alt="1"
             width={20}
             height={20}
            className="rounded-full object-cover w-full h-full"
@@ -26,11 +26,11 @@ export default function Testimonials() {
           </div>
         </div>
 
-        {/* Testimonial Card 2 */}
+        {/* Testimonial 2 */}
         <div className="w-[400px] h-[144px] bg-white rounded-xl shadow-sm p-4 flex gap-4">
           <Image
             src="https://y6kszdvuln.ufs.sh/f/r58qqbjUXDOkYmbIcdEvTnS4Rr5F8wOkpqCuaYHeVZ2EoyMG" // Replace with actual path in public folder
-            alt="Lalrinmawia"
+            alt="2"
             width={20}
             height={20}
             className="rounded-full object-cover w-full h-full"
@@ -43,11 +43,11 @@ export default function Testimonials() {
           </div>
         </div>
 
-        {/* Testimonial Card 3 */}
+        {/* Testimonial3 */}
         <div className="w-[400px] h-[144px] bg-white rounded-lg shadow-sm p-4 flex gap-4">
           <Image
             src="https://y6kszdvuln.ufs.sh/f/r58qqbjUXDOkL71NTecVE3UoFCB4ytgRJHnNmqhQDOale6pr" // Replace with actual path in public folder
-            alt="Michael Khawl"
+            alt="3"
             width={10}
             height={10}
             className="rounded-full w-full h-full"
